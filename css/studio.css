@@ -1,0 +1,526 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+    src: local("Roboto"), local("Roboto-Regular"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.woff")
+        format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
+  /* roboto-500 - latin_cyrillic */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
+    src: local("Roboto Medium"), local("Roboto-Medium"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.woff") format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
+  /* roboto-700 - latin_cyrillic */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+    src: local("Roboto Bold"), local("Roboto-Bold"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.woff") format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
+  /* roboto-900 - latin_cyrillic */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.eot"); /* IE9 Compat Modes */
+    src: local("Roboto Black"), local("Roboto-Black"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.woff") format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
+  
+  /* raleway-regular - latin */
+  @font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Raleway/raleway-v18-latin-regular.eot"); /* IE9 Compat Modes */
+    src: local(""),
+      url("../fonts/Raleway/raleway-v18-latin-regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Raleway/raleway-v18-latin-regular.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Raleway/raleway-v18-latin-regular.woff") format("woff"),
+      /* Modern Browsers */ url("../fonts/Raleway/raleway-v18-latin-regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Raleway/raleway-v18-latin-regular.svg#Raleway")
+        format("svg"); /* Legacy iOS */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Raleway/raleway-v18-latin-700.eot"); /* IE9 Compat Modes */
+    src: local(""),
+      url("../fonts/Raleway/raleway-v18-latin-700.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Raleway/raleway-v18-latin-700.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Raleway/raleway-v18-latin-700.woff") format("woff"),
+      /* Modern Browsers */ url("../fonts/Raleway/raleway-v18-latin-700.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Raleway/raleway-v18-latin-700.svg#Raleway") format("svg"); /* Legacy iOS */
+  }
+  
+  /* oleo-script-regular - latin */
+  @font-face {
+    font-family: "Oleo Script";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Oleo/oleo-script-v9-latin-regular.eot"); /* IE9 Compat Modes */
+    src: local("Oleo Script"), local("OleoScript-Regular"),
+      url("../fonts/Oleo/oleo-script-v9-latin-regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Oleo/oleo-script-v9-latin-regular.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Oleo/oleo-script-v9-latin-regular.woff") format("woff"),
+      /* Modern Browsers */ url("../fonts/Oleo/oleo-script-v9-latin-regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Oleo/oleo-script-v9-latin-regular.svg#OleoScript")
+        format("svg"); /* Legacy iOS */
+  }
+  
+  html{
+    box-sizing:border-box;
+  }
+
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+  
+  
+  
+  :root {
+    --text-cl: #212121;
+    --accent-color: #2196f3;
+    --dark-bg: #2f303a;
+    --gray: #757575;
+    --white: #ffffff;
+    --light-bg: #f5f4fa;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+  }
+  
+  .link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: var(--accent-color);
+  }
+  
+  .link:active {
+    color: var(--accent-color);
+  }
+
+  .container{
+    
+    width: 1200px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /*Шапка*/
+  .active {
+    color: var(--accent-color);
+  }
+  .menu-link {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-cl);
+  }
+  
+  .menu-item:not(:last-child){
+    display: inline-block;
+    margin-right: 50px;
+ }
+ .menu-item:first-child{
+   margin-left: 93px;
+ }
+
+ 
+
+  .logo {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+   
+
+  }
+  
+  .logo-two {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--text-cl);
+    margin-left: -3px;
+  }
+
+  .list1
+  {
+    padding:0px;
+    margin:0px;
+    display: flex;
+
+  }
+  .list2{
+    
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 331px;
+  }
+  
+  .list2 li:last-child{
+  margin-left:50px;
+  }
+
+  .header-container{
+   display: flex;
+  align-items: center;
+  }
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+  /*Банер*/
+  .banner {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--dark-bg);
+  
+  }
+  
+  .bannertitle{
+    
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  .btn1{
+    display: inline-block;
+    background-color:var(--accent-color);
+    padding: 10px 32px 10px 32px;
+    border-radius: 4px;
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    vertical-align: middle;
+    margin-bottom: 200px;
+  }
+  
+  /*Внимание к деталям*/
+ 
+  
+  .h-3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--text-cl);
+    margin-top: 94px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    
+  }
+
+  .content{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+
+    width: 270px;
+    height: 75px;
+    padding-bottom:0px;
+    padding-left:0px;
+    margin-left: 0px;
+  }
+  
+
+
+  .list3{
+    display: flex;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .list3 li
+  {
+    padding-left:0px;
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+  .list3 li:last-child{
+    margin-right: 0px;
+  }
+
+
+  
+  /* Чем мы занимаемся */
+
+
+  .title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    color: var(--text-cl);
+    margin-top: 94px;
+    margin-bottom: 50px;
+  }
+ 
+ .image{
+    margin-right:30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+ .image:last-child{
+    margin-right: 0px;
+  }
+
+  
+  .list4 {
+   display:flex;
+   padding-left: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   }
+ 
+   .list4 li{
+     margin-left:0px;
+     margin-right:30px;
+   }
+   
+   .list4 li:last-child{
+    margin-right:0px;
+   }
+
+
+  /* Наша команда */
+
+  .team {
+    background-color: var(--light-bg);
+  }
+  
+  .title2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    color: var(--text-cl);
+    margin-top: 94px;
+    margin-bottom: 50px;
+    padding-top: 94px; 
+  
+    
+  }
+  
+  .name {
+    font-family: "Roboto", sans-serif;
+      color: var(--text-cl);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+      
+      margin-top: 30px;
+      margin-bottom: 10px;
+      
+  }
+ 
+.list5{
+  display: flex;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+  .list5 li{
+    background-color:var(--white) ;
+    border:1px;
+    margin-right: 30px;
+    margin-bottom: 94px;
+    padding-left:0px;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .list5 li:last-child{
+   margin-right: 0px;
+  }
+
+  /*Footer*/
+
+
+  .logofooter {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--accent-color);
+    display: inline-block;
+    padding-top: 60px;
+    }
+
+  .logowhite {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--white);
+    margin-left: -3px;
+    
+  }
+ 
+  address {
+    font-style: normal;
+  
+  }
+
+  address a{
+  display: inline-block;
+  margin-top: 9px;
+  }
+  .street {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--white);
+  }
+  footer {
+    background-color: var(--dark-bg);
+    margin-top: 0px; 
+    height: 252px;
+  }
+  
+
+ 
+
+
+  
+  .list1 li, .list2 li, .list3 li, .list4 li, .list5 li{
+    list-style-type: none;
+    display: inline-block;
+   
+    
+  }
+  
+ 
+
+
+ 
+ 
+
+
+
+  
+ 
+ 
+   
+
+
+
+
+
+
+
+  
+  
+
+ 
