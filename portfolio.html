@@ -1,81 +1,424 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="rel stylesheet" href=""/>
-    <title>Портфолио</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
-</head>
-
-<body>
-  <header>
-    <div class="container header-container">
-    <nav class="navigation">
-      <a href=" " class="link"><span class="logo">Web</span> <span class="logo-two">Studio</span></a>
-    
-      <ul class="list1">
-        <li class="menu-item"><a class="link menu-link" href="./index.html">Студия</a></li>
-        <li class="menu-item"><a class="link menu-link" href="portfolio.html"> <span class="active">Портфолио</span></a></li>
-        <li class="menu-item"><a class="link menu-link" href="#contacts">Контакты</a></li>
-      </ul>
-   </nav>
-
-      <ul class="list2">
-        <li><a class="link" href="mailto:info@example.com"> info@example.com </a></li>
-        <li><a class="link" href="tel:+380991111111"> +38 099 111 11 11 </a></li>
-      </ul>
-    </div>
-  </header>
-
-
-<main>
-  <section>
-    <div class="container">
-    <h1 class="invisible">Наши проекты</h1> <!--невидимый-->
-    <ul class="list3">
-        <li><button type="button" class="btn"> Все</button></li>
-        <li><button type="button" class="btn"> Веб-сайты </button></li>
-        <li><button type="button" class="btn"> Приложения </button></li>
-        <li><button type="button" class="btn"> Дизайн </button></li>
-        <li><button type="button" class="btn"> Маркетинг </button></li>
-    </ul>
-   </div>
-  </section>
-      
-<section>
-  <div class="container">
-    <ul class="list4"> 
-      <li class="element" > <img src="./img/img8.png"  alt="Страница сайта" width="370px"> <h2 class="h-3">Технокряк</h2> <p>Веб-сайт</p>  </li>
-      <li class="element"> <img src="./img/img9.png"  alt="Постер: два баскетболиста" width="370px"> <h2 class="h-3">Постер New Orlean vs Golden Star</h2> <p>Дизайн</p></li>
-      <li class="element"> <img src="./img/img10.png" alt="Эмблема ресторана" width="370px"> <h2 class="h-3">Ресторан Seafood</h2> <p>Приложение</p></li>
-      <li class="element"> <img src="./img/img11.png" alt="Наушники" width="370px"><h2 class="h-3">Проект Prime</h2> <p>Маркетинг</p></li>
-      <li class="element"> <img src="./img/img12.png" alt="Две коробки" width="" ><h2 class="h-3">Проект Boxes</h2> <p>Приложение</p></li>
-      <li class="element"> <img src="./img/img13.png" alt="Страница сайта" width="370px"><h2 class="h-3">Inspiration has no Borders</h2> <p>Веб-сайт</p></li>
-      <li class="element"> <img src="./img/img14.png" alt="Разворот книги" width="370px"><h2 class="h-3">Издание Limited Edition</h2> <p>Дизайн</p>   </li>
-      <li class="element"> <img src="./img/img15.png" alt="Бирка" width="370px"><h2 class="h-3">Проект LAB</h2> <p>Маркетинг</p></li>
-      <li class="element"> <img src="./img/img16.png" alt="Страница сайта" width="370px"> <h2 class="h-3">Growing Business</h2> <p>Приложение</p></li>
-    </ul>
-  </div>
-</section>
-
-</main>
-
-<footer id="contacts">
-   <div class="container">
-     <a href=" " class="link"><span class="logofooter">Web</span> <span class="logowhite">Studio</span></a>
+ /* roboto-regular - latin_cyrillic */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+    src: local("Roboto"), local("Roboto-Regular"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.woff")
+        format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
+  /* roboto-500 - latin_cyrillic */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
+    src: local("Roboto Medium"), local("Roboto-Medium"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.woff") format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-500.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
+  /* roboto-700 - latin_cyrillic */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+    src: local("Roboto Bold"), local("Roboto-Bold"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.woff") format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-700.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
+  /* roboto-900 - latin_cyrillic */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.eot"); /* IE9 Compat Modes */
+    src: local("Roboto Black"), local("Roboto-Black"),
+      url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.woff") format("woff"),
+      /* Modern Browsers */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.svg#Roboto")
+        format("svg"); /* Legacy iOS */
+  }
   
-      <address> 
-        <span class="street"> г. Киев, пр-т Леси Украинки, 26</span> </br>
-        <a class="link" href="mailto:info@example.com"> info@example.com </a></br>
-        <a class="link" href="tel:+380991111111"> +38 099 111 11 11 </a></br>
-      </address>
-   </div>
-</footer>
+  /* raleway-regular - latin */
+  @font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Raleway/raleway-v18-latin-regular.eot"); /* IE9 Compat Modes */
+    src: local(""),
+      url("../fonts/Raleway/raleway-v18-latin-regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Raleway/raleway-v18-latin-regular.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Raleway/raleway-v18-latin-regular.woff") format("woff"),
+      /* Modern Browsers */ url("../fonts/Raleway/raleway-v18-latin-regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Raleway/raleway-v18-latin-regular.svg#Raleway")
+        format("svg"); /* Legacy iOS */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Raleway/raleway-v18-latin-700.eot"); /* IE9 Compat Modes */
+    src: local(""),
+      url("../fonts/Raleway/raleway-v18-latin-700.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Raleway/raleway-v18-latin-700.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Raleway/raleway-v18-latin-700.woff") format("woff"),
+      /* Modern Browsers */ url("../fonts/Raleway/raleway-v18-latin-700.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Raleway/raleway-v18-latin-700.svg#Raleway") format("svg"); /* Legacy iOS */
+  }
+  
+  /* oleo-script-regular - latin */
+  @font-face {
+    font-family: "Oleo Script";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Oleo/oleo-script-v9-latin-regular.eot"); /* IE9 Compat Modes */
+    src: local("Oleo Script"), local("OleoScript-Regular"),
+      url("../fonts/Oleo/oleo-script-v9-latin-regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts/Oleo/oleo-script-v9-latin-regular.woff2")
+        format("woff2"),
+      /* Super Modern Browsers */
+        url("../fonts/Oleo/oleo-script-v9-latin-regular.woff") format("woff"),
+      /* Modern Browsers */ url("../fonts/Oleo/oleo-script-v9-latin-regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts/Oleo/oleo-script-v9-latin-regular.svg#OleoScript")
+        format("svg"); /* Legacy iOS */
+  }
+  
+  html{
+    box-sizing:border-box;
+  }
 
-</body>
-</html>
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+ 
+  :root {
+    --text-cl: #212121;
+    --accent-color: #2196f3;
+    --dark-bg: #2f303a;
+    --gray: #757575;
+    --white: #ffffff;
+    --light-bg: #f5f4fa;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1, 71;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+  }
+ 
+ 
+  .link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: var(--accent-color);
+    border-color:var(--accent-color) ;
+  }
+  
+  .link:active {
+    color: var(--accent-color);
+  }
+
+  .container {
+    width: 1200px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .list1 li, .list2 li, .list3 li, .list4 li{
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  .list3, .list4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+
+  }
+  h1, h2{
+      margin: 0px 0px;
+      padding: 0px 0px;
+  }
+
+  h1{
+      display: none;
+  }
+ 
+
+  /*Шапка*/
+
+  .active {
+    color: var(--accent-color);
+    
+  }
+  .menu-link {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-cl);
+  }
+  
+  .menu-item:not(:last-child){
+    display: inline-block;
+    margin-right: 50px;
+ }
+ .menu-item:first-child{
+   margin-left: 93px;
+ }
+
+ 
+
+  .logo {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--accent-color);
+  }
+  
+  .logo-two {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--text-cl);
+    margin-left: -3px;
+  }
+
+  .list1
+  {
+    padding:0px;
+    margin:0px;
+    display: flex;
+  }
+  .list2{
+    padding:0px 0px 0px 0px;
+    margin:32px 0px 32px 331px;
+  }
+  
+  .list2 li:last-child{
+  margin-left:50px;
+  }
+
+  .header-container{
+   display: flex;
+   align-items: center;
+  }
+  .navigation{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+
+  header{
+    border-bottom: 1px solid;
+    border-color: #ECECEC ;
+  }
+
+/* Наши Проекты */
+.list3-container{
+    display: flex;
+    justify-content: center;
+}
+
+.list3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.list3 li:not(:last-child){
+    margin-right: 8px;
+}
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-cl);
+    background-color: var(--light-bg);
+    border-radius: 4px;  
+    border-color: var(--light-bg);
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    border-color: var(--light-bg);
+    background-color: var(--accent-color);
+    color:var(--white)
+  }
+ 
+
+  /*Ссылки на проекты*/
+  
+
+
+ .list4{
+     display: flex; 
+     flex-wrap: wrap;  
+ }
+
+ .element{   
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    margin-right:30px ;
+    margin-bottom: 30px;
+ }
+
+  .element:nth-child(3n+3){
+     margin-right:0px;     
+  }
+
+  .element:nth-child(n+7){
+      margin-bottom:94px;
+  }
+  .h-3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-cl);
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 4px;
+  }
+
+  p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+    margin-top:0px;
+    margin-left: 24px;
+    margin-bottom: 20px;
+  }
+
+
+ 
+ 
+ 
+ /*Footer*/
+
+
+ .logofooter {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--accent-color);
+    display: inline-block;
+    padding-top: 60px;
+    }
+
+  .logowhite {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.42;
+    color: var(--white);
+    margin-left: -3px;
+    
+  }
+ 
+  address {
+    font-style: normal;
+  
+  }
+
+  address a{
+  display: inline-block;
+  margin-top: 9px;
+  }
+  .tel{
+    padding-bottom: 60px;
+  }
+  .street {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--white);
+  }
+  footer {
+    background-color: var(--dark-bg);
+    margin-top: 0px; 
+   
+  }
+  
