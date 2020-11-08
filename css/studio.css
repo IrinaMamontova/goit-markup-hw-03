@@ -211,8 +211,6 @@
    margin-left: 93px;
  }
 
- 
-
   .logo {
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -220,10 +218,7 @@
     font-size: 26px;
     line-height: 1.42;
     color: var(--accent-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
-   
-
+    
   }
   
   .logo-two {
@@ -233,6 +228,8 @@
     line-height: 1.42;
     color: var(--text-cl);
     margin-left: -3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .list1
@@ -243,45 +240,62 @@
 
   }
   .list2{
-    
     padding:0px 0px 0px 0px;
-    margin:0px 0px 0px 331px;
+    margin:32px 0px 32px 331px;
   }
   
   .list2 li:last-child{
-  margin-left:50px;
+    margin-left:50px;
   }
 
   .header-container{
    display: flex;
-  align-items: center;
+   align-items: center;
+   margin-bottom: 0px;
   }
 .navigation{
   display: flex;
   align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
   /*Банер*/
+
+
   .banner {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    font-size: 44px;
+    font-size: 24px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    
     text-transform: uppercase;
     color: var(--white);
     background-color: var(--dark-bg);
-  
+
   }
   
-  .bannertitle{
-    
+  .bannertitle{ 
+    box-sizing: content-box;
+    width:696px;
+    height: 120px;
     margin-top: 0px;
+    margin-left: 0px;
+    margin-right:  0px;
     margin-bottom: 40px;
-    padding-top: 200px;
-    text-align: center;
+    padding-top: 200px; 
+    padding-left: 252px;
+    padding-right:252px;
+    /*text-align: center;*/
   }
+
+  .bannertitle-box{
+    width: 696px;
+    
+  }
+
 
   .btn1{
     display: inline-block;
@@ -483,6 +497,10 @@
     margin-top: 20px;
     color: var(--white);
   }
+  .tel{
+    padding-bottom: 60px;
+  }
+
   footer {
     background-color: var(--dark-bg);
     margin-top: 0px; 
