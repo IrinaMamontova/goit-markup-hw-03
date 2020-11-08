@@ -208,6 +208,7 @@
   h1{
       display: none;
   }
+ 
 
   /*Шапка*/
 
@@ -241,10 +242,6 @@
     font-size: 26px;
     line-height: 1.42;
     color: var(--accent-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
-   
-
   }
   
   .logo-two {
@@ -261,12 +258,10 @@
     padding:0px;
     margin:0px;
     display: flex;
-
   }
   .list2{
-    
     padding:0px 0px 0px 0px;
-    margin:0px 0px 0px 331px;
+    margin:32px 0px 32px 331px;
   }
   
   .list2 li:last-child{
@@ -277,10 +272,18 @@
    display: flex;
    align-items: center;
   }
-.navigation{
-  display: flex;
-  align-items: center;
-}
+  .navigation{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+
+  header{
+    border-bottom: 1px solid;
+    border-color: #ECECEC ;
+  }
 
 /* Наши Проекты */
 .list3-container{
@@ -301,13 +304,13 @@
 }
 .btn {
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
     display: inline-block;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     color: var(--text-cl);
     background-color: var(--light-bg);
     border-radius: 4px;  
@@ -405,6 +408,9 @@
   display: inline-block;
   margin-top: 9px;
   }
+  .tel{
+    padding-bottom: 60px;
+  }
   .street {
     display: inline-block;
     margin-top: 20px;
@@ -413,6 +419,6 @@
   footer {
     background-color: var(--dark-bg);
     margin-top: 0px; 
-    height: 252px;
+   
   }
   
