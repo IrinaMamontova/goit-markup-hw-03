@@ -288,17 +288,12 @@
     padding-top: 200px; 
     padding-left: 252px;
     padding-right:252px;
-    /*text-align: center;*/
+    text-align: center;
   }
-
-  .bannertitle-box{
-    width: 696px;
-    
-  }
-
 
   .btn1{
     display: inline-block;
+
     background-color:var(--accent-color);
     padding: 10px 32px 10px 32px;
     border-radius: 4px;
@@ -310,6 +305,8 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
     vertical-align: middle;
+    margin-left: 450px;
+    margin-right: 450px;
     margin-bottom: 200px;
   }
   
