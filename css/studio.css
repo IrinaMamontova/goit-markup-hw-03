@@ -231,6 +231,13 @@ address {
   margin-bottom: 10px;
 }
 
+.content-p{
+font style: 400;
+font-size: 14px;
+line-height: 1.46;
+letter-spacing: 0.06em;
+}
+
 .content-item {
   font-size: 14px;
   line-height: 24px;
