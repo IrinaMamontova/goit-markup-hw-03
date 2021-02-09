@@ -201,6 +201,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-cl);
+  margin-bottom:9px;
 }
 
 .content-p {
