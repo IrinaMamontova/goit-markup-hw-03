@@ -189,7 +189,10 @@ body {
 .list-about-item {
   display: inline-block;
   margin-right: 30px;
+  width: 270px;
+  height: 75px;
 }
+
 
 .list-about li:last-child {
   margin-right: 0px;
