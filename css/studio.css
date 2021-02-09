@@ -73,32 +73,25 @@ img {
 body {
   margin: 0px;
 }
-address {
-  font-style: normal;
-}
+
 /*==============================Header*===========================*/
 .header {
   border-bottom: 1px solid;
   border-color: #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-container,
+.navigation,
 .link {
   display: flex;
   align-items: center;
-}
-.navigation {
-  display: flex;
-  align-items: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .list-header-1,
 .list-header-2 {
   display: flex;
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
 }
 
 .list-header-1 {
@@ -127,7 +120,7 @@ address {
 }
 
 .list-header-2 {
-  margin: 32px 0px 32px 331px;
+  margin-left: 331px;
 }
 
 .logo,
@@ -156,68 +149,43 @@ address {
 /*=============================Hero================================*/
 
 .hero {
+  background-color: var(--dark-bg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-title {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
-  background-color: var(--dark-bg);
-}
-.hero-title {
-  box-sizing: content-box;
-  display: block;
-  width: 696px;
-  height: 120px;
-  padding: 200px 252px 0px 252px;
-  text-align: center;
 }
 
-.btn1,
-.btn {
+.btn1 {
+  display: block;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-}
-.btn1 {
-  display: inline-block;
   color: var(--white);
   background-color: var(--accent-color);
   padding: 10px 32px 10px 32px;
   border-radius: 4px;
   color: var(--white);
   text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  vertical-align: middle;
-  margin: 30px 450px 200px 450px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.btn {
-  color: var(--text-cl);
-  background-color: var(--light-bg);
+/*==============================ABOUT==============================*/
+.about {
+  padding-top: 94px;
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white);
-}
-
-/* ABOUT*/
-
-.content {
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--text-cl);
-}
 .list-about-item {
   display: inline-block;
   margin-right: 30px;
@@ -226,35 +194,34 @@ address {
 .list-about li:last-child {
   margin-right: 0px;
 }
-.content {
-  margin-top: 94px;
-  margin-bottom: 10px;
-}
-
-.content-p{
-font style: 400;
-font-size: 14px;
-line-height: 1.46;
-letter-spacing: 0.06em;
-}
-
-.content-item {
+.content-title {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 24px;
-  line-height: 1.71;
-  color: var(--gray);
-  width: 270px;
-  height: 75px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-cl);
 }
 
-/*ABOUT-IMAGES*/
+.content-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+/*==============================ABOUT-US=============================*/
+.about-us {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .title {
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
   color: var(--text-cl);
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -265,10 +232,8 @@ letter-spacing: 0.06em;
 /*TEAM*/
 .team {
   background-color: var(--light-bg);
-}
-
-.title-team {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-member {
@@ -291,10 +256,8 @@ letter-spacing: 0.06em;
 
 .list-team-item {
   width: 270px;
-  height: 368px;
   background-color: var(--white);
   margin-right: 30px;
-  margin-bottom: 94px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -303,18 +266,25 @@ letter-spacing: 0.06em;
 /*FOOTER*/
 footer {
   background-color: var(--dark-bg);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logowhite {
   font-weight: 400;
   color: var(--white);
-  padding: 0px;
 }
 .footer-logo {
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 20px;
-  padding: 0px;
+}
+address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  font-style: normal;
 }
 
 .link-address-item {
@@ -322,17 +292,7 @@ footer {
   text-decoration: none;
 }
 
-.list-address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--white);
-}
-.street,
 .email {
-  padding-bottom: 9px;
-}
-.tel {
-  padding-bottom: 60px;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
