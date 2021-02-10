@@ -193,7 +193,6 @@ body {
   height: 75px;
 }
 
-
 .list-about li:last-child {
   margin-right: 0px;
 }
@@ -249,6 +248,7 @@ body {
 .team-member-pro {
   font-weight: 400;
   color: var(--gray);
+  margin-bottom: 30px;
 }
 .team-member-pro,
 .team-member {
